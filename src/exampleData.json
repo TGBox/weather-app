@@ -1,0 +1,46 @@
+{
+  "coord": {
+    "lon": 9.9916,
+    "lat": 48.3984
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 291.68,
+    "feels_like": 291.94,
+    "temp_min": 287.09,
+    "temp_max": 291.68,
+    "pressure": 1011,
+    "humidity": 90,
+    "sea_level": 1011,
+    "grnd_level": 955
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 3.24,
+    "deg": 221,
+    "gust": 5.8
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1653398855,
+  "sys": {
+    "type": 2,
+    "id": 2004160,
+    "country": "DE",
+    "sunrise": 1653363001,
+    "sunset": 1653419041
+  },
+  "timezone": 7200,
+  "id": 2820256,
+  "name": "Ulm",
+  "cod": 200
+}
