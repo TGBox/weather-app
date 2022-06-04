@@ -13,9 +13,12 @@ function App() {
   // Will handle the api call with help of axios.
   const searchLocation = (event) => {
     if(event.key === "Enter") {
-      axios.get(apiUrl).then((response) => {
+      axios.get(apiUrl).then((response) => {  
         setData(response.data);
         console.log(response.data);
+      }, (err) => {
+        alert("Kein Ort mit dem Namen \"" + location + "\" gefunden!\n\n" + 
+            "Überprüfen Sie die Schreibweise und versuchen Sie es noch einmal.");
       });
       setLocation("");
     }
